@@ -22,14 +22,14 @@
     "cmd_voice_unblock_description": "Ξεμπλόκαρε χρήστες που δεν μπορούν να μπουν στο κανάλι σου",
     "cmd_voice_untrust_description": "Μή Έμπιστοι χρήστες μπορούν να μπαίνουν πάντα στο κανάλι",
     "cmd_voice_users_description": "Λίστα με όλους τους έμπιστους, μπλοκαρισμένους και moderator χρήστες",
-    "cmd_voice_password_description": "Set a password for others to join your temporary voice channel",
-    "cmd_voice_reset_description": "Reset the configuration of your temporary voice channel",
-    "cmd_voice_lfp_description": "Send an invite link to your temporary channel in this chat",
+    "cmd_voice_password_description": "Όρισε password για αυτούς που θέλουν να μπουν στο προσωρινό σου voice channel",
+    "cmd_voice_reset_description": "Κάνε Reset στις ρυθμίσεις του προσωρινού καναλιού σου",
+    "cmd_voice_lfp_description": "Στείλε invite link για το κανάλι σου στο chat",
 
-    "cmd_join_description": "Join a temporary voice channel by using a password",
+    "cmd_join_description": "Μπες στο κανάλι χρησιμοποιώντας το password",
     "cmd_setup_tempvoice_description": "Έναρξη αυτόματου σεταρίσματος του TempVoice",
-    "cmd_help_description": "Get help with the TempVoice Discord Bot",
-    "cmd_find_description": "Find out which voice channel a user is in",
+    "cmd_help_description": "Βοήθεια για το μποτάκι",
+    "cmd_find_description": "Μάθε σε ποιο κανάλι ειναι ο τάδε χρήστης",
 
     "info_setup": "## **Το Setup Ολοκληρώθηκε!!**\n {val1} μπορεί να χρησιμοποιηθεί για την δημιουργία νέων καναλιών.",
     "info_setup2": "## **Το Setup Ολοκληρώθηκε!**\n Αυτό το [interface]({val1}) μπορεί να χρησιμοποιηθεί για να ελέγχει τα κανάλια.",
@@ -115,8 +115,8 @@
     "find_1": "## **Found!**\n The user {val1} you're looking for is here: {val2}",
     "find_2": "## **Not Found.**\n The user you're looking for isn't in a public voice channel",
 
-    "help_1": "## Getting Started with TempVoice\n### <:settings:585767366743293952> Setup & Configure TempVoice\nSetup <@762217899355013120> by using the <:setup:1128667742887755899> **Setup TempVoice** button to create all the necessary channels such as a \n**<:voice:585783907673440266> Creator Channel** & **<:channel:585783907841212418> Interface**. \n\nConfigure and customize the bot by logging into our fancy [Dashboard](https://tempvoice.xyz/dashboard).\n### <:TempVoice_Color_Red:1063907096711667712> Create Your First Temporary Channel\nJoin a **<:voice:585783907673440266> Creator Channel** and you will be moved to your own temporary voice channel. \n### <:TempVoice_Color_Red:1063907096711667712> Manage Your Temporary Channel\nUse **/voice** commands such as </voice name:921416747687489568>, </voice limit:921416747687489568>, </voice privacy:921416747687489568>, etc... or the **<:channel:585783907841212418> interface**.",
-    "help_2": "## > Setup Your Custom Branding Bot\n### 1. Activated Premium!\nThis Custom Branding bot works for all Discord Servers where you as Custom Branding subscriber activated TempVoice Premium. You can manage your premium subscription on https://tempvoice.xyz/premium.\n### 2. Kick The Public Bot!\nThis Custom Branding bot completely replaces the public bot and will not start working until the public <@762217899355013120> bot got kicked. All existing Creator Channels will continue to function. Only existing Interfaces have to be replaced with **/setup**.",
+    "help_1": "## Ξεκίνα τώρα με το TempVoice\n### <:settings:585767366743293952> Ρύθμισε το\nSetup <@762217899355013120> χρησιμοποιώντας το<:setup:1128667742887755899> **Setup TempVoice** κουμπί για να φτιάξεις \n**<:voice:585783907673440266> Creator Channel** & **<:channel:585783907841212418> Interface**. \n\nεδώ αλλάζεις την εμφάνιση του μποτ [Dashboard](https://tempvoice.xyz/dashboard).\n### <:TempVoice_Color_Red:1063907096711667712> Φτιάξε το πρωτο σου κανάλι\nΜπες σε ένα **<:voice:585783907673440266> Creator Channel**και θα μεταφερθεις στο προσωρινό σου κανάλι αυτοματα. \n### <:TempVoice_Color_Red:1063907096711667712> Ρύθμισε το κανάλι σου\nUse **/voice** εντολές όπως </voice name:921416747687489568>, </voice limit:921416747687489568>, </voice privacy:921416747687489568>, κλπ...  ή στο  **<:channel:585783907841212418> interface**.",
+    "help_2": "## > Σέταρε την προσωποποίηση του μποτ\n### 1. Το Premium εχει ενεργοποιηθει!\nΜπορεις να το ρυθμίσεις για όλους τους σερβερ όπου εχεις αγορασει το Premium. Ανανέωσε την συνδρομή εδώ https://tempvoice.xyz/premium.\n### 2. Πέτα το έξω!\nπρεπει να το πετάξεις έξω το προηγουμενο μποτ για να δουλεύει το καστομαρισμένο <@762217899355013120>. Ολα τα κανάλια των creators λειτουργουν κανονικά. Μονο το interface θα επιρρεαστει **/setup**.",
 
     "interface_description": "Το περιβάλλον χρήσης **interface** μπορεί να χρησιμοποιηθεί για να αλλάξετε τα voice κανάλια. Περισσότερες επιλογές και εντολές εδώ: **/voice**.",
     "interface_footer": "Χρησιμοποίησε τα κουμπιά για να πλοηγηθείς",
@@ -141,12 +141,12 @@
     "waiting_menu_label_2": "ΑΠΟΡΡΙΨΗ",
     "waiting_menu_description_2": "Ο χρήστης θα πεταχτεί εκτός καναλιού και θα φάει μπλοκ στην μάπα",
 
-    "did_you_know_1": "You can set a password for your temporary channel using '/voice password'.",
-    "did_you_know_2": "If you cannot find your friend, you can use '/find' to find their voice channel.",
-    "did_you_know_3": "'lfp' in '/voice lfp' stands for Looking For People.",
-    "did_you_know_4": "You can trust up to 25 users with '/voice trust'.",
-    "did_you_know_5": "You can block up to 25 users with '/voice block'.",
-    "did_you_know_6": "To text with users on your temporary channel, you can create a private temporary thread using '/voice thread'.",
-    "did_you_know_7": "To accept or deny requests to join your locked temporary channel, you can create a waiting room with '/voice waiting"
+    "did_you_know_1": "Μπορεις να βάλεις password στο κανάλι σου με την εντολή '/voice password'.",
+    "did_you_know_2": "αν δεν μπορεις να βρεις σε ποιο κανάλι ειναι κάποιος δώσε την εντολή '/find' για να δεις σε ποιο καναλι ειναι.",
+    "did_you_know_3": "'lfp' στο '/voice lfp' σημαινει looking for people.",
+    "did_you_know_4": "Μπορεις να βαλεις μεχρι 25 έμπιστα άτομα '/voice trust'.",
+    "did_you_know_5": "Μπορεις να μπλοκάρεις μέχρι 25 άτομα '/voice block'.",
+    "did_you_know_6": "Δημιούργησε προσωρινό chat στο κανάλι γράφωντας '/voice thread'.",
+    "did_you_know_7": "Μπορεις να φτιάξεις ενα κανάλι αναμονης που θα περιμενουν οι χρήστες που θελουν να τους βάλεις μέσα με την εντολή '/voice waiting"
   }
 ]
